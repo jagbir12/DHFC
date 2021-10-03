@@ -35,7 +35,7 @@ function Header() {
                             <NavDropdown.Item as={Link} to={"/special-thanks"}>Special Thanks</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to={"/volunteers"} className='nav-links'>Volunteers</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to={"/about-us"}>About Us</Nav.Link>
+                        <Nav.Link as={Link} to={"/contact-us"}>Contact Us</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

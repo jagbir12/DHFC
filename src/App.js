@@ -12,7 +12,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home';
-import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 import Volunteers from './components/Volunteers';
 import SpecialThanks from './components/SpecialThanks';
 import Objectives from './components/Objectives';
@@ -31,7 +31,7 @@ function App() {
           <Switch>
             <Route path='/' exact component={Home} />
              <Route path='/home' component={Home} />
-             <Route path='/about-us' component={AboutUs} />
+             <Route path='/contact-us' component={ContactUs} />
              <Route path='/volunteers' component={Volunteers} />
              <Route path='/special-thanks' component={SpecialThanks} />
              <Route path='/objectives' component={Objectives} />
