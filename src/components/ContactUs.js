@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {Card, Row, Col, Form, Button} from 'react-bootstrap'
+import {Card, Row, Col} from 'react-bootstrap'
 
 function ContactUs() {
     return(
-        <div style={{paddingTop: "10px"}}>
+        <div style={{paddingTop: "10px", paddingBottom: "10px"}}>
              <Row>
                 <Col xs={12} md={8}>
-                    <Card style={{ height: '22rem' }}>
+                    <Card style={{boxShadow: "0px 6px 6px 6px rgba(0,0,0,.1)" }}>
                         <Card.Body>
                             <Card.Title>Darwin Hearts Football Club - Member Registration</Card.Title>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -21,7 +21,7 @@ function ContactUs() {
                     </Card>
                 </Col>
                 <Col xs={6} md={4}>
-                    <Card style={{ height: '22rem' }}>
+                    <Card style={{boxShadow: "0px 6px 6px 6px rgba(0,0,0,.1)" }}>
                         <Card.Body>
                             <Card.Title>More Info</Card.Title>
                             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}

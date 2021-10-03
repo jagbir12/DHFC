@@ -1,9 +1,6 @@
 import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {Col, Row, Card} from 'react-bootstrap'
-import img1 from "../images/img-1.jpg"
-import img2 from "../images/img-2.jpg"
-import img3 from "../images/img-3.jpg"
 import img4 from "../images/Akron.png"
 import img5 from "../images/BDMS 2021.png"
 import img6 from "../images/dada di.png"
@@ -16,8 +13,8 @@ import img12 from "../images/WonderWhite_Master_logo_RGB.png"
 
 function PartnersAndSponsors() {
     return(
-        <div style={{paddingTop:"18px"}}>
-            <Card>
+        <div style={{paddingTop:"18px", paddingBottom:"18px"}}>
+            <Card style={{boxShadow: "0px 6px 6px 6px rgba(0,0,0,.1)" }}>
                 <Card.Body>
                     <Card.Title>PARTNERS AND SPONSORS</Card.Title>
                     <Row style={{paddingTop:"3px"}}>

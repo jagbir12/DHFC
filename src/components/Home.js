@@ -27,8 +27,8 @@ import { Container, Row, Col, Card, ListGroup, ListGroupItem } from 'react-boots
 export default function Home() {
   return (
     <Container>
-        <Row style={{paddingTop: "1px", paddingBottom:"10px"}}>
-            <Col>
+        <Row style={{paddingTop: "3px", paddingBottom:"3px"}}>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Carousel variant="dark">
                     <Carousel.Item>
                         <img className="d-block w-100" src={SlideImage1} alt="First slide"/>
@@ -58,9 +58,9 @@ export default function Home() {
                 </Carousel>
             </Col>
         </Row>
-        <Row><Col>SPONSORS</Col></Row>
-        <Row style={{paddingTop: "10px", paddingBottom:"10px"}}>
-            <Col>
+        <Row style={{paddingTop: "3px", paddingBottom:"3px"}}><Col style={{paddingTop: "3px", paddingBottom:"3px"}}>SPONSORS</Col></Row>
+        <Row style={{paddingTop: "3px", paddingBottom:"3px"}}>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '9rem'}}>
                     <Card.Img variant="top" src={img4} />
                 </Card>
@@ -68,33 +68,33 @@ export default function Home() {
                     <Card.Img variant="top" src={img11} />
                 </Card>
             </Col>
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '9.8rem'}}>
                     <Card.Img variant="top" src={img7} />
                 </Card>
             </Col>
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '10.2rem'}}>
                     <Card.Img variant="top" src={img8} />
                 </Card>
             </Col>
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '8.3rem'}}>
                     <Card.Img variant="top" src={img10} />
                 </Card>
             </Col>
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '7rem'}}>
                     <Card.Img variant="top" src={img5} />
                 </Card>
             </Col>
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '7rem'}}>
                     <Card.Img variant="top" src={img6} />
                 </Card>
             </Col>
             
-            <Col>
+            <Col style={{paddingTop: "3px", paddingBottom:"3px"}}>
                 <Card style={{ width: '5.2rem'}}>
                     <Card.Img variant="top" src={img9} />
                 </Card>
