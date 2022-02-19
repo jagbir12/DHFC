@@ -28,9 +28,9 @@ function ContactUs() {
                             <Card.Text>
                                 <p>If you have any further queries and advice, please feel free to contact us.</p> 
                                 <p>
-                                    Email: info@darwinheartsfc.com.au <br/>
-                                    Facebook:
-                                    https://www.facebook.com/darwinhearts
+                                    Email: <a href="mailto:info@darwinheartsfc.com.au">info@darwinheartsfc.com.au</a><br/>
+                                    Facebook: <a href="https://www.facebook.com/darwinhearts" target="_blank">https://www.facebook.com/darwinhearts</a>
+                                    
                                 </p>
                             </Card.Text>
                             {/* <Card.Link href="#">Card Link</Card.Link>

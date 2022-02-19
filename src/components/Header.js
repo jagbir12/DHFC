@@ -11,7 +11,11 @@ import {
 
 function Header() {
     return(
-        <Navbar collapseOnSelect expand="lg" variant="dark" bg="primary" style={{position:"sticky", boxShadow: "0px 8px 8px -6px rgba(0,0,0,.5)"}} fixed="top">
+        <>
+            <Navbar collapseOnSelect expand="lg" variant="dark" bg="red" style={{position:"sticky", boxShadow: "0px 8px 8px -6px rgba(0,0,0,.5)", backgroundColor:"red"}} fixed="top">
+                <Container style={{alignItems:"center"}}><div><i class="fas fa-wrench"/> Website is under construction.</div></Container>
+            </Navbar>
+            <Navbar collapseOnSelect expand="lg" variant="dark" bg="primary" style={{position:"sticky", boxShadow: "0px 8px 8px -6px rgba(0,0,0,.5)"}} fixed="top">
                 <Container>
                     <Navbar.Brand as={Link} to={"/home"}>
                     <img src={logo} alt="Darwin Hearts Football Club" />
@@ -20,14 +24,6 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to={"/home"} ><i class="fas fa-home"/> Home</Nav.Link>
-                        <NavDropdown title="Teams" id="basic-nav-dropdown">
-                            <NavDropdown.Item as={Link} to={"/management-team"}>Management Team</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to={"/squad2017"}>Squad 2017</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to={"/tournament-ladder"}>Tournament Ladder</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item as={Link} to={"/live-score"}>Live Score</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link as={Link} to={"/partners-and-sponsors"}>Partners and Sponsors</Nav.Link>
                         <NavDropdown title="About Us" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to={"/history"}>History</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to={"/achievements"}>Achievements</NavDropdown.Item>
@@ -40,7 +36,7 @@ function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        
+        </>
     );
 }
 
