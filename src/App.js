@@ -18,7 +18,6 @@ import SpecialThanks from './components/SpecialThanks';
 import Objectives from './components/Objectives';
 import Achievements from './components/Achievements';
 import History from './components/History';
-import PartnersAndSponsors from './components/PartnersAndSponsors';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -37,7 +36,6 @@ function App() {
              <Route path='/objectives' component={Objectives} />
              <Route path='/achievements' component={Achievements} />
              <Route path='/history' component={History} />
-             <Route path='/partners-and-sponsors' component={PartnersAndSponsors} />
           </Switch>
         
        </Container>

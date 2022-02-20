@@ -9,9 +9,15 @@ import SlideImage6 from "../images/Slide-Image-6.jpg";
 import SlideImage7 from "../images/Slide-Image-7.jpg";
 import SlideImage8 from "../images/Slide-Image-8.jpg";
 
-import sponsors from "../images/major sponsors.png"
+import goldSponsor1 from "../images/Gold Sponsor - Rhino Industries.png"
+import goldSponsor2 from "../images/Gold Sponsor - NME.png"
+import goldSponsor3 from "../images/Gold Sponsor - Dada Di.png"
 
-import { Container, Row, Col, Card, ListGroup, ListGroupItem, Button } from 'react-bootstrap';
+import majorSponsor1 from "../images/Major Sponsor - Akron.png"
+import majorSponsor2 from "../images/Major Sponsor - KBA Global.jpg"
+import majorSponsor3 from "../images/Major Sponsor - InnovativeWealth_Darwin.png"
+
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 export default function Home() {
   return (
@@ -36,9 +42,9 @@ export default function Home() {
             </Col>
         </Row>
         <Row style={{paddingTop: "3px", paddingBottom:"3px"}}><Col style={{paddingTop: "3px", paddingBottom:"3px", alignItems:"center"}}>REGISTRATIONS</Col></Row>
-        <Row style={{alignContent:"center"}}>
+        <Row style={{alignContent:"center", paddingTop: "3px", paddingBottom:"3px"}}>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card style={{ width: '14rem', backgroundColor:"#f1611c"}}>
                     <Card.Body>
                         <Card.Title>Become a Player</Card.Title>
                         <Card.Text>
@@ -49,7 +55,7 @@ export default function Home() {
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card style={{ width: '14rem', backgroundColor:"#f1611c"}}>
                     <Card.Body>
                         <Card.Title>Become a Player</Card.Title>
                         <Card.Text>
@@ -60,7 +66,7 @@ export default function Home() {
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card style={{ width: '14rem', backgroundColor:"#f1611c"}}>
                     <Card.Body>
                         <Card.Title>Become a Player</Card.Title>
                         <Card.Text>
@@ -71,7 +77,7 @@ export default function Home() {
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card style={{ width: '14rem', backgroundColor:"#f1611c"}}>
                     <Card.Body>
                         <Card.Title>Become a Coach</Card.Title>
                         <Card.Text>
@@ -83,7 +89,7 @@ export default function Home() {
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card onMouseOver style={{ width: '14rem', backgroundColor:"#f1611c"}}>
                     <Card.Body>
                         <Card.Title>Become a Volunteer</Card.Title>
                         <Card.Text>
@@ -95,11 +101,40 @@ export default function Home() {
                 </Card>
             </Col>
         </Row>
-        <Row style={{paddingTop: "3px", paddingBottom:"3px"}}><Col style={{paddingTop: "3px", paddingBottom:"3px"}}>SPONSORS</Col></Row>
-        <Row style={{paddingTop: "3px"}}>
+        <Row style={{backgroundColor:"#0d5091", color:"white", paddingTop: "3px", paddingBottom:"3px", alignContent:"center"}}><Col style={{paddingTop: "3px", paddingBottom:"3px"}}>MAJOR SPONSORS</Col></Row>
+        <Row style={{backgroundColor:"#0d5091", paddingTop: "3px", paddingBottom:"3px"}}>
             <Col>
-                <Card>
-                    <Card.Img variant="top" src={sponsors} />
+                <Card style={{ width: '25rem', height: '15rem' }}>
+                    <Card.Img variant="top" src={majorSponsor1} />                           
+                </Card>
+            </Col>
+            <Col>
+                <Card style={{ width: '25rem', height: '15rem' }}>
+                    <Card.Img variant="top" src={majorSponsor2} />                           
+                </Card>
+            </Col>
+            <Col>
+                <Card style={{ width: '25rem', height: '15rem' }}>
+                    <Card.Img variant="top" src={majorSponsor3} />                           
+                </Card>
+            </Col>
+        </Row>
+        <Row style={{paddingTop: "3px", paddingBottom:"3px"}}><Col></Col></Row>
+        <Row style={{backgroundColor:"#7a720c", color:"white", paddingTop: "3px", paddingBottom:"3px", alignContent:"center"}}><Col style={{paddingTop: "3px", paddingBottom:"3px"}}>GOLD SPONSORS</Col></Row>
+        <Row style={{backgroundColor:"#7a720c", padding:"3px 600px 5px 3px"}}>
+            <Col>
+                <Card style={{ width: '12.5rem', height: '12.5rem' }}>
+                    <Card.Img variant="top" src={goldSponsor1} />                           
+                </Card>
+            </Col>
+            <Col>
+                <Card style={{ width: '12.5rem', height: '12.5rem' }}>
+                    <Card.Img variant="top" src={goldSponsor2} />                           
+                </Card>
+            </Col>
+            <Col>
+                <Card style={{ width: '12.5rem', height: '12.5rem' }}>
+                    <Card.Img variant="top" src={goldSponsor3} />                           
                 </Card>
             </Col>
         </Row>

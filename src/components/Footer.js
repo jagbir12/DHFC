@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {Container, Navbar, Nav, NavDropdown, Form, FormControl, Button, Row, Col, Card, ListGroup} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -26,25 +25,17 @@ function Footer() {
 							</div>	
 							<div class="footer-links">
 								<Link to="/home">Home</Link>
-								<Link to="/management-team">Management Team</Link>
-								<Link to="/squad2017">Squad 2017</Link>
-								<Link to="/tournament-ladder">Tournament Ladder</Link>
+								<Link to="/history">History</Link>
+								<Link to="/achievements">Achievements</Link>
+								<Link to="/objectives">Objectives</Link>
 							</div>
 						</div>
-						<div class="col-md-3 m-b-30">
-							<div class="footer-links" style={{paddingTop:"62px"}}>
-								<Link to="/live-score">Live Score</Link>
-								<Link to="/partners-and-sponsors">Partners and Sponsors</Link>
-								<Link to="/about-us">About Us</Link>
-								<Link to="/volunteers">Volunteers</Link>
-							</div>
-						</div>
+						
 						<div class="col-md-3 m-b-30">
 							<div class="footer-links" style={{paddingTop:"62px"}}>
 								<Link to="/special-thanks">Special Thanks</Link>
-								<Link to="/Objectives">Objectives</Link>
-								<Link to="/achievements">Achievements</Link>
-								<Link to="/history">History</Link>
+								<Link to="/volunteers">Volunteers</Link>
+								<Link to="/contact-us">Contact Us</Link>
 							</div>
 
 							<div class="footer-social-links m-t-30">
@@ -63,6 +54,9 @@ function Footer() {
 									</a>
 								</li>
 							</div>
+						</div>
+						<div class="col-md-3 m-b-30">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdarwinhearts%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style={{height:"340px"}}></iframe>
 						</div>
 					</div>
 				</div>
